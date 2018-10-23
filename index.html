@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+  <script src="./lib/flexible/flexible.js"></script>
+</head>
+<body>
+  <div class="sn_container">
+    <div class="sn_header">
+      <div class="icon_category"></div>
+      <div class="search">
+        <i></i>
+        <input type="text" placeholder="年中大促, 火力全开">
+      </div>
+      <div class="icon_cart"></div>
+    </div>
+    <div class="sn_banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="./images/banner01.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/banner02.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/banner03.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/banner04.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/banner05.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/banner06.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/banner07.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="./images/banner08.jpg" alt=""></a></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <div class="sn_nav">
+      <ul class="clearfix">
+        <li>
+          <a href="#">
+            <img src="./images/nav01.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav02.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav03.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav04.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav05.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav06.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav07.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav08.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav09.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/nav10.png" alt="">
+            <p>分类</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="sn_footer">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="./images/tabs01.png" alt="">
+            <p>首页</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/tabs01.png" alt="">
+            <p>首页</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/tabs01.png" alt="">
+            <p>首页</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/tabs01.png" alt="">
+            <p>首页</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/tabs01.png" alt="">
+            <p>首页</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="./lib/swiper/js/swiper.min.js"></script>
+  <script>
+    var mySwiper = new Swiper ('.swiper-container', {
+      loop: true, // 循环模式选项
+      autoplay: {
+      delay: 1000,
+      stopOnLastSlide: false,
+      disableOnInteraction: true,
+      },
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // 如果需要滚动条
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    })        
+  </script>
+</body>
+</html>
